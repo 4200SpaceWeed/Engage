@@ -1,0 +1,75 @@
+
+direct_message_settings:
+  individual_delay: 120
+  rate_limit_delay: 300
+  offset: 100
+  max_dms_per_token: 0
+  skip_completed: true
+  call: false
+  remove_dead_tokens: true 
+  remove_completed_members: true 
+  stop_dead_tokens: true 
+  check_mutual: false
+  friend_before_DM: false
+  online_tokens: false
+  receive_messages: false
+  skip_failed: false
+  block_after_dm: false
+  close_dm_after_message: false
+  multiple_message: false
+  delay_between_multiple_messages: 10
+
+proxy_settings:
+  proxy_from_file: false
+  proxy_for_captcha: false
+  use_proxy_for_gateway: false
+  proxy_protocol: "http"
+  timeout: 60
+
+scraper_settings:
+  scraper_delay: 3000
+  scrape_usernames: true
+  scrape_avatars: true
+  query_brute_extra_chars: ""
+
+captcha_settings:
+  captcha_api_key: "e28de54fc286dc4dd6b8d7ebf3449d91"
+  captcha_api: "invisifox.com"
+  max_captcha_wait: 120
+  max_captcha_retry_dm: 0
+  max_captcha_retry_invite: 0
+
+other_settings: 
+  disable_keep_alives: false
+  constant_cookies: false
+  censor_token: true
+  logs: false
+  gateway_status: 4
+  cfbm: false
+  x_super_properties: "eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiQ2hyb21lIiwiZGV2aWNlIjoiIiwic3lzdGVtX2xvY2FsZSI6ImVuLVVTIiwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDYuMDsgTmV4dXMgNSBCdWlsZC9NUkE1OE4pIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDMuMC4wLjAgTW9iaWxlIFNhZmFyaS81MzcuMzYiLCJicm93c2VyX3ZlcnNpb24iOiIxMDMuMC4wLjAiLCJvc192ZXJzaW9uIjoiNi4wIiwicmVmZXJyZXIiOiIiLCJyZWZlcnJpbmdfZG9tYWluIjoiIiwicmVmZXJyZXJfY3VycmVudCI6IiIsInJlZmVycmluZ19kb21haW5fY3VycmVudCI6IiIsInJlbGVhc2VfY2hhbm5lbCI6InN0YWJsZSIsImNsaWVudF9idWlsZF9udW1iZXIiOjk5OTksImNsaWVudF9ldmVudF9zb3VyY2UiOm51bGx9"
+  useragent: "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
+
+suspicion_avoidance:
+  random_individual_delay: 60
+  random_rate_limit_delay: 0
+  random_delay_before_dm: 10
+  typing: true
+  typing_variation: 250
+  typing_speed: 450
+  typing_base: 200
+
+dm_on_react:
+  observer_token: ""
+  change_name: true
+  change_avatar: true 
+  invite: ""
+  server_id: ""
+  channel_id: ""
+  message_id: ""
+  emoji: ""
+  skip_completed: true 
+  skip_failed: true 
+  leave_token_on_ratelimit: true 
+  rotate_tokens: true
+  max_anti_raid_queue: 20
+  max_dms_per_token: 10
